@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录子模块：登录的正向和反向用例",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "6718a9d704183f0e",
+        "parentUid" : "643333161697a0dfa1c6acfba9f55e21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655089521975,
+          "stop" : 1655089542756,
+          "duration" : 20781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "密码错误",
+        "uid" : "fa11f507c72d64f0",
+        "parentUid" : "643333161697a0dfa1c6acfba9f55e21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655089542758,
+          "stop" : 1655089560080,
+          "duration" : 17322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "密码为空",
+        "uid" : "827a63269a7bcb29",
+        "parentUid" : "643333161697a0dfa1c6acfba9f55e21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655089560082,
+          "stop" : 1655089579264,
+          "duration" : 19182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "643333161697a0dfa1c6acfba9f55e21"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}
